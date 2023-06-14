@@ -1,0 +1,6 @@
+<mapper namespace="com.jmoh.myeis.dao.UserDAO">
+
+    <select id="getAllUsers" resultMap="userResultMap">
+        SELECT * FROM TB_USER
+    </select>
+</mapper>
